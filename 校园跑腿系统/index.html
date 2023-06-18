@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>校园跑跑平台</title>
+    <link rel="stylesheet" href="js/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="row clearfix" id="header">
+            <div class="col-md-12 column">
+                <!-- 导航栏 -->
+                <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+                    <!-- logo和登录头像、用户名 -->
+                    <div class="navbar-header">
+                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+                             <span class="sr-only">Toggle navigation</span>
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                        </button>
+                        <a href='#'><img  src="img/图标1.png" class="img-rounded" style="width: 60px;height: 50px;"/></a>
+                         <!-- <a style="color: white;text-decoration: none;font-size: large;">南方跑腿</a> -->
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <!-- 导航栏下面那部分 -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav ">
+                           <li><img  src="https://static.runoob.com/images/mix/img_avatar.png"  class="img-circle img-responsive center-block" style="width: 50px;height: 50px;"/></li>
+                            <li class='text-center'>
+                                <a href="login.html" style="color:white;font-size: larger;font-family: '微软雅黑';">HI!你好,立即登录</a>
+                           </li>
+                        </ul>
+
+                        <form class="navbar-form navbar-right form-inline" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="查找物品"/>
+                                <button type="submit" class="btn btn-primary">搜索</button>
+                            </div> 
+                        </form>
+                        
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a>
+                           </li>
+                            <li>
+                                <a href="xx.html"><span class="glyphicon glyphicon-envelope"></span> 消息</a>
+                           </li>
+                            <li>
+                                <a href="order.html"> <span class="glyphicon glyphicon-credit-card"></span> 订单</a>
+                           </li>
+                            <li class="dropdown">
+                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">我的<strong class="caret"></strong></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="mine.html">个人资料</a>
+                                   </li>
+                                   <!-- <li class="divider"></li>
+                                    <li>
+                                         <a href="#">我的地址</a>
+                                    </li> -->
+                                    <li class="divider"></li>
+                                    <li>
+                                         <a href="#">联系客服</a>
+                                    </li><li class="divider">
+                                    </li>
+                                    <li>
+                                         <a href="yjfk.html">意见反馈</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                    
+                </nav>
+            </div>
+        </div>
+        <!-- 头部 -->
+
+        <!-- 空盒子 -->
+        <div class="col-md-12 column" id="top_empty_box">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
+                </div>				
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                        </li>
+                        <li>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li> 
+                                </li>
+                                <li>
+                                </li>
+                                <li>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                </li>
+                                <li>
+
+                                </li>
+                                <li>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+            </nav>
+        </div>
+        <!-- 空盒子 -->
+
+
+        <!-- 内容区 -->
+        <div class="row clearfix" id="content">
+
+            <div class="col-md-12 column">
+                <div class="navbar-default text-center" style="font-size: larger; font-weight: bolder;" id="nav_bar">
+                    <ul class="nav navbar-nav" style="clear: both">
+                        <li><a class="navitme" href="xydG.html">校园代购</a> </li>
+                        <li><a class="navitme" href="xydq.html">校园代取</a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <br>
+            
+            <div class="col-md-12 column">
+                <div class="carousel slide" id="carousel-598775">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#carousel-598775">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel-598775">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel-598775">
+                        </li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="#"><img alt="" src="https://p1.meituan.net/travelcube/01d2ab1efac6e2b7adcfcdf57b8cb5481085686.png" /></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img alt="" src="https://p1.meituan.net/travelcube/01d2ab1efac6e2b7adcfcdf57b8cb5481085686.png" /></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img alt="" src="https://p1.meituan.net/travelcube/01d2ab1efac6e2b7adcfcdf57b8cb5481085686.png" /></a>
+                        </div>
+                    </div> <a class="left carousel-control" href="#carousel-598775" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-598775" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+            
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <hr>
+            <div class="col-md-16 column">
+                <h1 style="font-size: 2.8em;
+                color: #76b852;
+                margin: 0em 0em 0.2em 0em;
+                font-family: 'RobotoSlab-Regular';text-align: center;">商家</h1>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img alt="300x200" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fqcloud.dpfile.com%2Fpc%2F6Zd-4Eflq6lbBlOucAn7LVRlP1KcIbNQZ-K2WwidMHyNZ_0rYm3dkO3EuLfWJJhYTYGVDmosZWTLal1WbWRW3A.jpg&refer=http%3A%2F%2Fqcloud.dpfile.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642328622&t=66c36a72e277e24c378f169dc8c11417" />
+                            <div class="caption">
+                                <h3 style="text-align: center;">
+                                    <a href="supermark_d.html" style="text-decoration: none;">东区超市</a>
+                                </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img alt="300x200" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fqcloud.dpfile.com%2Fpc%2F6Zd-4Eflq6lbBlOucAn7LVRlP1KcIbNQZ-K2WwidMHyNZ_0rYm3dkO3EuLfWJJhYTYGVDmosZWTLal1WbWRW3A.jpg&refer=http%3A%2F%2Fqcloud.dpfile.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642328622&t=66c36a72e277e24c378f169dc8c11417" />
+                            <div class="caption">
+                                <h3 style="text-align: center;">
+                                    <a href="supermark_x.html" style="text-decoration: none;">西区超市</a>
+                                </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img alt="300x200" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fqcloud.dpfile.com%2Fpc%2F6Zd-4Eflq6lbBlOucAn7LVRlP1KcIbNQZ-K2WwidMHyNZ_0rYm3dkO3EuLfWJJhYTYGVDmosZWTLal1WbWRW3A.jpg&refer=http%3A%2F%2Fqcloud.dpfile.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642328622&t=66c36a72e277e24c378f169dc8c11417" />
+                            <div class="caption">
+                                <h3 style="text-align: center;">
+                                    <a href="supermark_z.html" style="text-decoration: none;">中区超市</a>
+                                </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img alt="300x200" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fqcloud.dpfile.com%2Fpc%2F6Zd-4Eflq6lbBlOucAn7LVRlP1KcIbNQZ-K2WwidMHyNZ_0rYm3dkO3EuLfWJJhYTYGVDmosZWTLal1WbWRW3A.jpg&refer=http%3A%2F%2Fqcloud.dpfile.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642328622&t=66c36a72e277e24c378f169dc8c11417" />
+                            <div class="caption">
+                                <h3 style="text-align: center;">
+                                    <a href="supermark_4.html" style="text-decoration: none;">未命名超市</a>
+                                </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-12 column">
+                
+                <div class="jumbotron">
+                    <h1>
+                        关于我们
+                    </h1>
+                    <p>
+                       我们是来自中山大学南方学院的学生，该系统是由我们东31栋223宿舍全体人员经过数夜的努力创作出来，目前还处于完善之中！请大家多多支持！
+                    </p>
+                    <p>
+                            <a class="btn btn-primary btn-large" href="#">了解更多</a>
+                    </p>
+                </div>
+                
+            </div>
+
+
+            <div class="col-md-12 column">
+                <div class="">
+                    <h1>
+                        开发人员 <small>名单</small>
+                    </h1>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 column">
+                <div class="tabbable" id="tabs-6727">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                             <a href="#panel-1" data-toggle="tab">陈泽沛</a>
+                        </li>
+                        <li>
+                             <a href="#panel-2" data-toggle="tab">胡灿杰</a>
+                        </li>
+                        <li>
+                            <a href="#panel-3" data-toggle="tab">曾永康</a>
+                       </li>
+                       <li>
+                        <a href="#panel-4" data-toggle="tab">郑佳炜</a>
+                   </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="panel-1">
+                            <div class="media">
+                                <div class="media-left">
+                                  <img src="https://static.runoob.com/images/mix/img_avatar.png" class="media-object" style="width:60px">
+                                </div>
+                                <div class="media-body">
+                                    <blockquote class="pull-right">
+                                        <p>项目经理</p>
+                                        <small>就读于广州南方学院</small>
+                                    </blockquote>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane" id="panel-2">
+                            <div class="media">
+                                <div class="media-left">
+                                  <img src="https://static.runoob.com/images/mix/img_avatar.png" class="media-object" style="width:60px">
+                                </div>
+                                <div class="media-body">
+                                    <blockquote class="pull-right">
+                                        <p>后端工程师</p> 
+                                        <small>无</small>
+                                    </blockquote>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane" id="panel-3">
+                            <div class="media">
+                                <div class="media-left">
+                                  <img src="https://static.runoob.com/images/mix/img_avatar.png" class="media-object" style="width:60px">
+                                </div>
+                                <div class="media-body">
+                                    <blockquote class="pull-right">
+                                        <p>前端工程师</p> 
+                                        <small>就读于广州南方学院</small>
+                                    </blockquote>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="panel-4">
+                            <div class="media">
+                                <div class="media-left">
+                                  <img src="https://static.runoob.com/images/mix/img_avatar.png" class="media-object" style="width:60px">
+                                </div>
+                                <div class="media-body">
+                                    <blockquote class="pull-right">
+                                        <p>数据库设计师</p> 
+                                        <small>就读于广州南方学院</small>
+                                    </blockquote>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+
+        </div>
+        <!-- 内容区 -->
+
+        <!-- 尾部 -->
+        <div class="row clearfix" id="bottom" class=".navbar-static-top">
+            <hr>
+            <div class="col-md-12 column text-center">
+                <h1>
+                    <i class="fa fa-weibo" style="font-size:20px"><p class="text-center" style="font-size: 15px;">Weibo</p></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-wechat" style="font-size:20px"><p class="text-center" style="font-size: 15px;">WeChat</p></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                </h1>
+            </div>
+
+            <div class="col-md-12 column" style="width: 100%;height: 100%; text-align: center;">
+                <ul class="list-inline" style="font-family: initial;font-weight: bolder;font-size: 12px;">
+                    <li>用户帮助</li>
+                    <li>规则</li>
+                    <li>公司信息</li>
+                    <li>联系方式</li>
+                </ul>
+                <ul class="list-inline" style="font-family: initial;font-size: 12px;">
+                    <li>常见问题</li>
+                    <li>用户协议</li>
+                    <li>关于我们</li>
+                    <li>QQ:1277856368</li>
+                </ul>
+                <ul class="list-inline" style="font-family: initial;font-size: 12px;">
+                    <li>帮助中心</li>
+                    <li>隐私政策</li>
+                    <li>加入我们</li>
+                    <li>WeChat:z2867112745</li>
+                </ul>
+            </div>
+            <div class="text-center" style="color: gray;">
+                <h5>&copy;2020-2021  东31栋宿舍223宿舍. All rights reserved.</h5>
+            </div>
+        </div>
+        <!-- 尾部 -->     
+    </div>
+</body>
+</html>
